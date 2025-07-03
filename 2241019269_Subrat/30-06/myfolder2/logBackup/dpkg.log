@@ -1,0 +1,59 @@
+2025-06-30 09:00:48 startup archives unpack
+2025-06-30 09:00:48 install zsh-common:all <none> 5.4.2-3ubuntu3.2
+2025-06-30 09:00:48 status half-installed zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:48 status triggers-pending man-db:amd64 2.8.3-2ubuntu0.1
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 install zsh:amd64 <none> 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status half-installed zsh:amd64 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh:amd64 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh:amd64 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 startup packages configure
+2025-06-30 09:00:49 configure docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal <none>
+2025-06-30 09:00:49 status half-configured docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal
+2025-06-30 09:00:49 configure zsh-common:all 5.4.2-3ubuntu3.2 <none>
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status unpacked zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status half-configured zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status installed zsh-common:all 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 configure zsh:amd64 5.4.2-3ubuntu3.2 <none>
+2025-06-30 09:00:49 status unpacked zsh:amd64 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status half-configured zsh:amd64 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 status installed zsh:amd64 5.4.2-3ubuntu3.2
+2025-06-30 09:00:49 trigproc man-db:amd64 2.8.3-2ubuntu0.1 <none>
+2025-06-30 09:00:49 status half-configured man-db:amd64 2.8.3-2ubuntu0.1
+2025-06-30 09:00:49 status installed man-db:amd64 2.8.3-2ubuntu0.1
+2025-06-30 09:59:41 startup packages configure
+2025-06-30 09:59:41 configure docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal <none>
+2025-06-30 09:59:41 status half-configured docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal
+2025-06-30 09:59:54 startup archives unpack
+2025-06-30 09:59:54 upgrade docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal 5:28.1.1-1~ubuntu.20.04~focal
+2025-06-30 09:59:54 status half-configured docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal
+2025-06-30 09:59:54 status unpacked docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal
+2025-06-30 09:59:54 status half-installed docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal
+2025-06-30 09:59:54 status triggers-pending ureadahead:amd64 0.100.0-21
+2025-06-30 09:59:54 status triggers-pending systemd:amd64 237-3ubuntu10.57
+2025-06-30 09:59:56 status triggers-pending man-db:amd64 2.8.3-2ubuntu0.1
+2025-06-30 09:59:56 status half-installed docker-ce:amd64 5:27.0.3-1~ubuntu.20.04~focal
+2025-06-30 09:59:56 status unpacked docker-ce:amd64 5:28.1.1-1~ubuntu.20.04~focal
+2025-06-30 09:59:56 status unpacked docker-ce:amd64 5:28.1.1-1~ubuntu.20.04~focal
+2025-06-30 09:59:56 startup packages configure
+2025-06-30 09:59:56 configure docker-ce:amd64 5:28.1.1-1~ubuntu.20.04~focal <none>
+2025-06-30 09:59:56 status unpacked docker-ce:amd64 5:28.1.1-1~ubuntu.20.04~focal
+2025-06-30 09:59:56 status unpacked docker-ce:amd64 5:28.1.1-1~ubuntu.20.04~focal
+2025-06-30 09:59:56 status unpacked docker-ce:amd64 5:28.1.1-1~ubuntu.20.04~focal
+2025-06-30 09:59:56 status half-configured docker-ce:amd64 5:28.1.1-1~ubuntu.20.04~focal
+2025-06-30 09:59:56 trigproc systemd:amd64 237-3ubuntu10.57 <none>
+2025-06-30 09:59:56 status half-configured systemd:amd64 237-3ubuntu10.57
+2025-06-30 09:59:56 status installed systemd:amd64 237-3ubuntu10.57
+2025-06-30 09:59:56 trigproc man-db:amd64 2.8.3-2ubuntu0.1 <none>
+2025-06-30 09:59:56 status half-configured man-db:amd64 2.8.3-2ubuntu0.1
+2025-06-30 09:59:56 status installed man-db:amd64 2.8.3-2ubuntu0.1
+2025-06-30 09:59:56 trigproc ureadahead:amd64 0.100.0-21 <none>
+2025-06-30 09:59:56 status half-configured ureadahead:amd64 0.100.0-21
+2025-06-30 09:59:56 status installed ureadahead:amd64 0.100.0-21

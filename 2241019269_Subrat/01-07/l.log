@@ -1,0 +1,11 @@
+2025-07-01 10:02:14,345 - INFO - Starting application...
+2025-07-01 10:02:14,350 - INFO - Database connection established.
+2025-07-01 10:02:20,460 - ERROR - Database query failed: Timeout error.
+2025-07-01 10:02:22,785 - INFO - User login successful: user123
+2025-07-01 10:02:35,987 - ERROR - File not found: /uploads/image123.jpg
+2025-07-01 10:02:50,234 - WARN - Memory usage exceeding 80%.
+2025-07-01 10:03:01,423 - ERROR - Unexpected null pointer exception in method processData.
+2025-07-01 10:03:15,678 - INFO - File uploaded successfully: /uploads/image456.jpg
+2025-07-01 10:03:20,891 - ERROR - API call failed: 503 Service Unavailable.
+2025-07-01 10:03:45,004 - INFO - Application shutdown initiated.
+2025-07-01 10:03:50,999 - ERROR - Critical failure: Unable to shutdown gracefully.

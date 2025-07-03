@@ -1,0 +1,642 @@
+[     5.160] 
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+[     5.160] Build Operating System: Linux 4.4.0-148-generic x86_64 Ubuntu
+[     5.160] Current Operating System: Linux dell-desktop 5.0.0-1037-oem-osp1 #42-Ubuntu SMP Fri Jan 24 16:20:00 UTC 2020 x86_64
+[     5.160] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.0.0-1037-oem-osp1.efi.signed root=UUID=f16542c9-3e04-4b29-8a6e-fe1f3660fd1d ro quiet splash
+[     5.160] Build Date: 02 May 2019  08:06:54AM
+[     5.160] xorg-server-hwe-18.04 2:1.20.4-1ubuntu3~18.04.1 (For technical support please see http://www.ubuntu.com/support) 
+[     5.160] Current version of pixman: 0.34.0
+[     5.160] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     5.160] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     5.160] (==) Log file: "/var/log/Xorg.0.log", Time: Fri Nov 26 16:16:37 2021
+[     5.162] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     5.162] (==) No Layout section.  Using the first Screen section.
+[     5.162] (==) No screen section available. Using defaults.
+[     5.162] (**) |-->Screen "Default Screen Section" (0)
+[     5.162] (**) |   |-->Monitor "<default monitor>"
+[     5.162] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     5.162] (==) Automatically adding devices
+[     5.162] (==) Automatically enabling devices
+[     5.162] (==) Automatically adding GPU devices
+[     5.162] (==) Automatically binding GPU devices
+[     5.162] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     5.164] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[     5.164] 	Entry deleted from font path.
+[     5.164] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[     5.164] 	Entry deleted from font path.
+[     5.164] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[     5.164] 	Entry deleted from font path.
+[     5.164] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[     5.164] 	Entry deleted from font path.
+[     5.164] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[     5.164] 	Entry deleted from font path.
+[     5.164] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[     5.164] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     5.164] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     5.164] (II) Loader magic: 0x561c94338020
+[     5.164] (II) Module ABI versions:
+[     5.164] 	X.Org ANSI C Emulation: 0.4
+[     5.164] 	X.Org Video Driver: 24.0
+[     5.164] 	X.Org XInput driver : 24.1
+[     5.164] 	X.Org Server Extension : 10.0
+[     5.165] (++) using VT number 1
+
+[     5.165] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[     5.165] (II) xfree86: Adding drm device (/dev/dri/card0)
+[     5.166] (--) PCI:*(0@0:2:0) 8086:9bc8:1028:09a8 rev 3, Mem @ 0xd0000000/16777216, 0xc0000000/268435456, I/O @ 0x00004000/64, BIOS @ 0x????????/131072
+[     5.166] (II) LoadModule: "glx"
+[     5.167] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     5.170] (II) Module glx: vendor="X.Org Foundation"
+[     5.170] 	compiled for 1.20.4, module version = 1.0.0
+[     5.170] 	ABI class: X.Org Server Extension, version 10.0
+[     5.170] (==) Matched modesetting as autoconfigured driver 0
+[     5.170] (==) Matched fbdev as autoconfigured driver 1
+[     5.170] (==) Matched vesa as autoconfigured driver 2
+[     5.170] (==) Assigned the driver to the xf86ConfigLayout
+[     5.170] (II) LoadModule: "modesetting"
+[     5.170] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     5.170] (II) Module modesetting: vendor="X.Org Foundation"
+[     5.170] 	compiled for 1.20.4, module version = 1.20.4
+[     5.170] 	Module class: X.Org Video Driver
+[     5.170] 	ABI class: X.Org Video Driver, version 24.0
+[     5.170] (II) LoadModule: "fbdev"
+[     5.170] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     5.170] (II) Module fbdev: vendor="X.Org Foundation"
+[     5.170] 	compiled for 1.20.1, module version = 0.5.0
+[     5.170] 	Module class: X.Org Video Driver
+[     5.170] 	ABI class: X.Org Video Driver, version 24.0
+[     5.170] (II) LoadModule: "vesa"
+[     5.171] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[     5.171] (II) Module vesa: vendor="X.Org Foundation"
+[     5.171] 	compiled for 1.20.1, module version = 2.4.0
+[     5.171] 	Module class: X.Org Video Driver
+[     5.171] 	ABI class: X.Org Video Driver, version 24.0
+[     5.171] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     5.171] (II) FBDEV: driver for framebuffer: fbdev
+[     5.171] (II) VESA: driver for VESA chipsets: vesa
+[     5.171] (II) modeset(0): using drv /dev/dri/card0
+[     5.171] (WW) Falling back to old probe method for fbdev
+[     5.171] (II) Loading sub module "fbdevhw"
+[     5.171] (II) LoadModule: "fbdevhw"
+[     5.171] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     5.171] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     5.171] 	compiled for 1.20.4, module version = 0.0.2
+[     5.171] 	ABI class: X.Org Video Driver, version 24.0
+[     5.171] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[     5.171] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[     5.171] (==) modeset(0): RGB weight 888
+[     5.171] (==) modeset(0): Default visual is TrueColor
+[     5.171] (II) Loading sub module "glamoregl"
+[     5.171] (II) LoadModule: "glamoregl"
+[     5.171] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[     5.175] (II) Module glamoregl: vendor="X.Org Foundation"
+[     5.175] 	compiled for 1.20.4, module version = 1.0.1
+[     5.175] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     5.200] (II) modeset(0): glamor X acceleration enabled on Mesa DRI Intel(R) UHD Graphics (Comet Lake 3x8 GT2) 
+[     5.200] (II) modeset(0): glamor initialized
+[     5.203] (II) modeset(0): Output HDMI-1 has no monitor section
+[     5.208] (II) modeset(0): Output DP-1 has no monitor section
+[     5.212] (II) modeset(0): Output HDMI-2 has no monitor section
+[     5.212] (II) modeset(0): Output DP-2 has no monitor section
+[     5.216] (II) modeset(0): Output HDMI-3 has no monitor section
+[     5.220] (II) modeset(0): EDID for output HDMI-1
+[     5.225] (II) modeset(0): EDID for output DP-1
+[     5.225] (II) modeset(0): Manufacturer: DEL  Model: a15a  Serial#: 860899153
+[     5.225] (II) modeset(0): Year: 2021  Week: 42
+[     5.225] (II) modeset(0): EDID Version: 1.4
+[     5.225] (II) modeset(0): Digital Display Input
+[     5.225] (II) modeset(0): 8 bits per channel
+[     5.225] (II) modeset(0): Digital interface is DisplayPort
+[     5.225] (II) modeset(0): Max Image Size [cm]: horiz.: 43  vert.: 24
+[     5.225] (II) modeset(0): Gamma: 2.20
+[     5.225] (II) modeset(0): DPMS capabilities: Off
+[     5.225] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 YCrCb 4:2:2
+[     5.225] (II) modeset(0): First detailed timing is preferred mode
+[     5.225] (II) modeset(0): Preferred mode is native pixel format and refresh rate
+[     5.225] (II) modeset(0): redX: 0.644 redY: 0.333   greenX: 0.318 greenY: 0.624
+[     5.225] (II) modeset(0): blueX: 0.156 blueY: 0.064   whiteX: 0.313 whiteY: 0.329
+[     5.225] (II) modeset(0): Supported established timings:
+[     5.225] (II) modeset(0): 720x400@70Hz
+[     5.225] (II) modeset(0): 640x480@60Hz
+[     5.225] (II) modeset(0): 640x480@75Hz
+[     5.225] (II) modeset(0): 800x600@60Hz
+[     5.225] (II) modeset(0): 800x600@75Hz
+[     5.225] (II) modeset(0): 1024x768@60Hz
+[     5.225] (II) modeset(0): 1024x768@75Hz
+[     5.225] (II) modeset(0): 1280x1024@75Hz
+[     5.225] (II) modeset(0): Manufacturer's mask: 0
+[     5.225] (II) modeset(0): Supported standard timings:
+[     5.225] (II) modeset(0): #0: hsize: 1152  vsize 864  refresh: 75  vid: 20337
+[     5.225] (II) modeset(0): #1: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[     5.225] (II) modeset(0): #2: hsize: 1600  vsize 900  refresh: 60  vid: 49321
+[     5.225] (II) modeset(0): Supported detailed timing:
+[     5.225] (II) modeset(0): clock: 108.0 MHz   Image Size:  434 x 236 mm
+[     5.225] (II) modeset(0): h_active: 1600  h_sync: 1624  h_sync_end 1704 h_blank_end 1800 h_border: 0
+[     5.225] (II) modeset(0): v_active: 900  v_sync: 901  v_sync_end 904 v_blanking: 1000 v_border: 0
+[     5.225] (II) modeset(0): Serial No: 5YVNHC3
+[     5.225] (II) modeset(0): Monitor name: DELL E2020H
+[     5.225] (II) modeset(0): Ranges: V min: 50 V max: 76 Hz, H min: 30 H max: 78 kHz, PixClock max 155 MHz
+[     5.225] (II) modeset(0): EDID (in hex):
+[     5.225] (II) modeset(0): 	00ffffffffffff0010ac5aa151475033
+[     5.225] (II) modeset(0): 	2a1f0104a52b18783adb25a455519f28
+[     5.225] (II) modeset(0): 	105054a54b00714f8180a9c001010101
+[     5.225] (II) modeset(0): 	010101010101302a40c8608464301850
+[     5.225] (II) modeset(0): 	1300b2ec1000001e000000ff00355956
+[     5.225] (II) modeset(0): 	4e4843330a2020202020000000fc0044
+[     5.225] (II) modeset(0): 	454c4c204532303230480a20000000fd
+[     5.225] (II) modeset(0): 	00324c1e4e0f010a2020202020200030
+[     5.225] (II) modeset(0): Printing probed modes for output DP-1
+[     5.225] (II) modeset(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz eP)
+[     5.225] (II) modeset(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[     5.225] (II) modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[     5.225] (II) modeset(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[     5.225] (II) modeset(0): Modeline "1024x768"x75.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[     5.225] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[     5.225] (II) modeset(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[     5.225] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[     5.225] (II) modeset(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[     5.225] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[     5.225] (II) modeset(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[     5.228] (II) modeset(0): EDID for output HDMI-2
+[     5.228] (II) modeset(0): EDID for output DP-2
+[     5.232] (II) modeset(0): EDID for output HDMI-3
+[     5.232] (II) modeset(0): Output HDMI-1 disconnected
+[     5.232] (II) modeset(0): Output DP-1 connected
+[     5.232] (II) modeset(0): Output HDMI-2 disconnected
+[     5.232] (II) modeset(0): Output DP-2 disconnected
+[     5.232] (II) modeset(0): Output HDMI-3 disconnected
+[     5.232] (II) modeset(0): Using exact sizes for initial modes
+[     5.232] (II) modeset(0): Output DP-1 using initial mode 1600x900 +0+0
+[     5.232] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[     5.232] (==) modeset(0): DPI set to (96, 96)
+[     5.232] (II) Loading sub module "fb"
+[     5.232] (II) LoadModule: "fb"
+[     5.232] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     5.233] (II) Module fb: vendor="X.Org Foundation"
+[     5.233] 	compiled for 1.20.4, module version = 1.0.0
+[     5.233] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     5.233] (II) UnloadModule: "fbdev"
+[     5.233] (II) Unloading fbdev
+[     5.233] (II) UnloadSubModule: "fbdevhw"
+[     5.233] (II) Unloading fbdevhw
+[     5.233] (II) UnloadModule: "vesa"
+[     5.233] (II) Unloading vesa
+[     5.237] (==) modeset(0): Backing store enabled
+[     5.237] (==) modeset(0): Silken mouse enabled
+[     5.316] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[     5.316] (==) modeset(0): DPMS enabled
+[     5.317] (II) modeset(0): [DRI2] Setup complete
+[     5.317] (II) modeset(0): [DRI2]   DRI driver: i965
+[     5.317] (II) modeset(0): [DRI2]   VDPAU driver: i965
+[     5.317] (II) Initializing extension Generic Event Extension
+[     5.317] (II) Initializing extension SHAPE
+[     5.317] (II) Initializing extension MIT-SHM
+[     5.317] (II) Initializing extension XInputExtension
+[     5.317] (II) Initializing extension XTEST
+[     5.317] (II) Initializing extension BIG-REQUESTS
+[     5.317] (II) Initializing extension SYNC
+[     5.317] (II) Initializing extension XKEYBOARD
+[     5.317] (II) Initializing extension XC-MISC
+[     5.317] (II) Initializing extension SECURITY
+[     5.318] (II) Initializing extension XFIXES
+[     5.318] (II) Initializing extension RENDER
+[     5.318] (II) Initializing extension RANDR
+[     5.318] (II) Initializing extension COMPOSITE
+[     5.318] (II) Initializing extension DAMAGE
+[     5.318] (II) Initializing extension MIT-SCREEN-SAVER
+[     5.318] (II) Initializing extension DOUBLE-BUFFER
+[     5.318] (II) Initializing extension RECORD
+[     5.318] (II) Initializing extension DPMS
+[     5.318] (II) Initializing extension Present
+[     5.318] (II) Initializing extension DRI3
+[     5.318] (II) Initializing extension X-Resource
+[     5.318] (II) Initializing extension XVideo
+[     5.318] (II) Initializing extension XVideo-MotionCompensation
+[     5.318] (II) Initializing extension SELinux
+[     5.318] (II) SELinux: Disabled on system
+[     5.318] (II) Initializing extension GLX
+[     5.322] (II) AIGLX: Loaded and initialized i965
+[     5.322] (II) GLX: Initialized DRI2 GL provider for screen 0
+[     5.322] (II) Initializing extension XFree86-VidModeExtension
+[     5.322] (II) Initializing extension XFree86-DGA
+[     5.322] (II) Initializing extension XFree86-DRI
+[     5.322] (II) Initializing extension DRI2
+[     5.327] (II) modeset(0): Damage tracking initialized
+[     5.327] (II) modeset(0): Setting screen physical size to 423 x 238
+[     5.353] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[     5.353] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     5.353] (II) LoadModule: "libinput"
+[     5.353] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[     5.356] (II) Module libinput: vendor="X.Org Foundation"
+[     5.356] 	compiled for 1.20.1, module version = 0.28.1
+[     5.356] 	Module class: X.Org XInput Driver
+[     5.356] 	ABI class: X.Org XInput driver, version 24.1
+[     5.356] (II) Using input driver 'libinput' for 'Power Button'
+[     5.356] (**) Power Button: always reports core events
+[     5.356] (**) Option "Device" "/dev/input/event2"
+[     5.356] (**) Option "_source" "server/udev"
+[     5.356] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[     5.356] (II) event2  - Power Button: device is a keyboard
+[     5.356] (II) event2  - Power Button: device removed
+[     5.374] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[     5.374] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[     5.374] (**) Option "xkb_model" "pc105"
+[     5.374] (**) Option "xkb_layout" "us"
+[     5.374] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[     5.374] (II) event2  - Power Button: device is a keyboard
+[     5.375] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[     5.375] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[     5.375] (II) Using input driver 'libinput' for 'Video Bus'
+[     5.375] (**) Video Bus: always reports core events
+[     5.375] (**) Option "Device" "/dev/input/event3"
+[     5.375] (**) Option "_source" "server/udev"
+[     5.375] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[     5.375] (II) event3  - Video Bus: device is a keyboard
+[     5.375] (II) event3  - Video Bus: device removed
+[     5.390] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input3/event3"
+[     5.390] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[     5.390] (**) Option "xkb_model" "pc105"
+[     5.390] (**) Option "xkb_layout" "us"
+[     5.390] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[     5.390] (II) event3  - Video Bus: device is a keyboard
+[     5.391] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[     5.391] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     5.391] (II) Using input driver 'libinput' for 'Power Button'
+[     5.391] (**) Power Button: always reports core events
+[     5.391] (**) Option "Device" "/dev/input/event1"
+[     5.391] (**) Option "_source" "server/udev"
+[     5.391] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     5.391] (II) event1  - Power Button: device is a keyboard
+[     5.391] (II) event1  - Power Button: device removed
+[     5.406] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[     5.406] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[     5.406] (**) Option "xkb_model" "pc105"
+[     5.406] (**) Option "xkb_layout" "us"
+[     5.406] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     5.406] (II) event1  - Power Button: device is a keyboard
+[     5.406] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[     5.407] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[     5.407] (II) Using input driver 'libinput' for 'Sleep Button'
+[     5.407] (**) Sleep Button: always reports core events
+[     5.407] (**) Option "Device" "/dev/input/event0"
+[     5.407] (**) Option "_source" "server/udev"
+[     5.407] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[     5.407] (II) event0  - Sleep Button: device is a keyboard
+[     5.407] (II) event0  - Sleep Button: device removed
+[     5.422] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[     5.422] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[     5.422] (**) Option "xkb_model" "pc105"
+[     5.422] (**) Option "xkb_layout" "us"
+[     5.422] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[     5.422] (II) event0  - Sleep Button: device is a keyboard
+[     5.423] (II) config/udev: Adding input device PixArt Dell MS116 USB Optical Mouse (/dev/input/event7)
+[     5.423] (**) PixArt Dell MS116 USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[     5.423] (II) Using input driver 'libinput' for 'PixArt Dell MS116 USB Optical Mouse'
+[     5.423] (**) PixArt Dell MS116 USB Optical Mouse: always reports core events
+[     5.423] (**) Option "Device" "/dev/input/event7"
+[     5.423] (**) Option "_source" "server/udev"
+[     5.423] (II) event7  - PixArt Dell MS116 USB Optical Mouse: is tagged by udev as: Mouse
+[     5.423] (II) event7  - PixArt Dell MS116 USB Optical Mouse: device set to 1000 DPI
+[     5.423] (II) event7  - PixArt Dell MS116 USB Optical Mouse: device is a pointer
+[     5.423] (II) event7  - PixArt Dell MS116 USB Optical Mouse: device removed
+[     5.454] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-10/1-10:1.0/0003:413C:301A.0003/input/input7/event7"
+[     5.454] (II) XINPUT: Adding extended input device "PixArt Dell MS116 USB Optical Mouse" (type: MOUSE, id 10)
+[     5.454] (**) Option "AccelerationScheme" "none"
+[     5.454] (**) PixArt Dell MS116 USB Optical Mouse: (accel) selected scheme none/0
+[     5.454] (**) PixArt Dell MS116 USB Optical Mouse: (accel) acceleration factor: 2.000
+[     5.454] (**) PixArt Dell MS116 USB Optical Mouse: (accel) acceleration threshold: 4
+[     5.454] (II) event7  - PixArt Dell MS116 USB Optical Mouse: is tagged by udev as: Mouse
+[     5.454] (II) event7  - PixArt Dell MS116 USB Optical Mouse: device set to 1000 DPI
+[     5.454] (II) event7  - PixArt Dell MS116 USB Optical Mouse: device is a pointer
+[     5.455] (II) config/udev: Adding input device PixArt Dell MS116 USB Optical Mouse (/dev/input/mouse0)
+[     5.455] (II) No input driver specified, ignoring this device.
+[     5.455] (II) This device may have been added with another device file.
+[     5.455] (II) config/udev: Adding input device Dell KB216 Wired Keyboard (/dev/input/event4)
+[     5.455] (**) Dell KB216 Wired Keyboard: Applying InputClass "libinput keyboard catchall"
+[     5.455] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard'
+[     5.455] (**) Dell KB216 Wired Keyboard: always reports core events
+[     5.455] (**) Option "Device" "/dev/input/event4"
+[     5.455] (**) Option "_source" "server/udev"
+[     5.455] (II) event4  - Dell KB216 Wired Keyboard: is tagged by udev as: Keyboard
+[     5.455] (II) event4  - Dell KB216 Wired Keyboard: device is a keyboard
+[     5.455] (II) event4  - Dell KB216 Wired Keyboard: device removed
+[     5.470] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:413C:2113.0001/input/input4/event4"
+[     5.470] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard" (type: KEYBOARD, id 11)
+[     5.470] (**) Option "xkb_model" "pc105"
+[     5.470] (**) Option "xkb_layout" "us"
+[     5.470] (II) event4  - Dell KB216 Wired Keyboard: is tagged by udev as: Keyboard
+[     5.470] (II) event4  - Dell KB216 Wired Keyboard: device is a keyboard
+[     5.471] (II) config/udev: Adding input device Dell KB216 Wired Keyboard Consumer Control (/dev/input/event5)
+[     5.471] (**) Dell KB216 Wired Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[     5.471] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard Consumer Control'
+[     5.471] (**) Dell KB216 Wired Keyboard Consumer Control: always reports core events
+[     5.471] (**) Option "Device" "/dev/input/event5"
+[     5.471] (**) Option "_source" "server/udev"
+[     5.471] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: is tagged by udev as: Keyboard
+[     5.471] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device is a keyboard
+[     5.471] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device removed
+[     5.486] (II) libinput: Dell KB216 Wired Keyboard Consumer Control: needs a virtual subdevice
+[     5.486] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:413C:2113.0002/input/input5/event5"
+[     5.486] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard Consumer Control" (type: MOUSE, id 12)
+[     5.486] (**) Option "AccelerationScheme" "none"
+[     5.486] (**) Dell KB216 Wired Keyboard Consumer Control: (accel) selected scheme none/0
+[     5.486] (**) Dell KB216 Wired Keyboard Consumer Control: (accel) acceleration factor: 2.000
+[     5.486] (**) Dell KB216 Wired Keyboard Consumer Control: (accel) acceleration threshold: 4
+[     5.486] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: is tagged by udev as: Keyboard
+[     5.486] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device is a keyboard
+[     5.487] (II) config/udev: Adding input device Dell KB216 Wired Keyboard System Control (/dev/input/event6)
+[     5.487] (**) Dell KB216 Wired Keyboard System Control: Applying InputClass "libinput keyboard catchall"
+[     5.487] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard System Control'
+[     5.487] (**) Dell KB216 Wired Keyboard System Control: always reports core events
+[     5.487] (**) Option "Device" "/dev/input/event6"
+[     5.487] (**) Option "_source" "server/udev"
+[     5.487] (II) event6  - Dell KB216 Wired Keyboard System Control: is tagged by udev as: Keyboard
+[     5.487] (II) event6  - Dell KB216 Wired Keyboard System Control: device is a keyboard
+[     5.487] (II) event6  - Dell KB216 Wired Keyboard System Control: device removed
+[     5.502] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:413C:2113.0002/input/input6/event6"
+[     5.502] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard System Control" (type: KEYBOARD, id 13)
+[     5.502] (**) Option "xkb_model" "pc105"
+[     5.502] (**) Option "xkb_layout" "us"
+[     5.502] (II) event6  - Dell KB216 Wired Keyboard System Control: is tagged by udev as: Keyboard
+[     5.502] (II) event6  - Dell KB216 Wired Keyboard System Control: device is a keyboard
+[     5.503] (II) config/udev: Adding input device HDA Intel PCH Line Out (/dev/input/event10)
+[     5.503] (II) No input driver specified, ignoring this device.
+[     5.503] (II) This device may have been added with another device file.
+[     5.503] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event11)
+[     5.503] (II) No input driver specified, ignoring this device.
+[     5.503] (II) This device may have been added with another device file.
+[     5.503] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event12)
+[     5.503] (II) No input driver specified, ignoring this device.
+[     5.503] (II) This device may have been added with another device file.
+[     5.503] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event13)
+[     5.503] (II) No input driver specified, ignoring this device.
+[     5.503] (II) This device may have been added with another device file.
+[     5.503] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event14)
+[     5.503] (II) No input driver specified, ignoring this device.
+[     5.503] (II) This device may have been added with another device file.
+[     5.503] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event15)
+[     5.503] (II) No input driver specified, ignoring this device.
+[     5.503] (II) This device may have been added with another device file.
+[     5.503] (II) config/udev: Adding input device HDA Intel PCH Headphone Mic (/dev/input/event9)
+[     5.503] (II) No input driver specified, ignoring this device.
+[     5.503] (II) This device may have been added with another device file.
+[     5.504] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event8)
+[     5.504] (**) Dell WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[     5.504] (II) Using input driver 'libinput' for 'Dell WMI hotkeys'
+[     5.504] (**) Dell WMI hotkeys: always reports core events
+[     5.504] (**) Option "Device" "/dev/input/event8"
+[     5.504] (**) Option "_source" "server/udev"
+[     5.504] (II) event8  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[     5.504] (II) event8  - Dell WMI hotkeys: device is a keyboard
+[     5.504] (II) event8  - Dell WMI hotkeys: device removed
+[     5.518] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input8/event8"
+[     5.518] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 14)
+[     5.518] (**) Option "xkb_model" "pc105"
+[     5.518] (**) Option "xkb_layout" "us"
+[     5.518] (II) event8  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[     5.518] (II) event8  - Dell WMI hotkeys: device is a keyboard
+[     5.533] (**) Dell KB216 Wired Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[     5.533] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard Consumer Control'
+[     5.533] (**) Dell KB216 Wired Keyboard Consumer Control: always reports core events
+[     5.533] (**) Option "Device" "/dev/input/event5"
+[     5.533] (**) Option "_source" "_driver/libinput"
+[     5.533] (II) libinput: Dell KB216 Wired Keyboard Consumer Control: is a virtual subdevice
+[     5.533] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:413C:2113.0002/input/input5/event5"
+[     5.533] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard Consumer Control" (type: KEYBOARD, id 15)
+[     5.533] (**) Option "xkb_model" "pc105"
+[     5.533] (**) Option "xkb_layout" "us"
+[     6.363] (II) modeset(0): EDID vendor "DEL", prod id 41306
+[     6.363] (II) modeset(0): Using EDID range info for horizontal sync
+[     6.364] (II) modeset(0): Using EDID range info for vertical refresh
+[     6.364] (II) modeset(0): Printing DDC gathered Modelines:
+[     6.364] (II) modeset(0): Modeline "1600x900"x0.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz eP)
+[     6.364] (II) modeset(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[     6.364] (II) modeset(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[     6.364] (II) modeset(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[     6.364] (II) modeset(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[     6.364] (II) modeset(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[     6.364] (II) modeset(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[     6.364] (II) modeset(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[     6.364] (II) modeset(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[     6.364] (II) modeset(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[     6.364] (II) modeset(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[     7.185] (II) modeset(0): EDID vendor "DEL", prod id 41306
+[     7.185] (II) modeset(0): Using hsync ranges from config file
+[     7.185] (II) modeset(0): Using vrefresh ranges from config file
+[     7.185] (II) modeset(0): Printing DDC gathered Modelines:
+[     7.185] (II) modeset(0): Modeline "1600x900"x0.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz eP)
+[     7.185] (II) modeset(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[     7.185] (II) modeset(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[     7.185] (II) modeset(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[     7.185] (II) modeset(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[     7.185] (II) modeset(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[     7.185] (II) modeset(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[     7.185] (II) modeset(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[     7.185] (II) modeset(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[     7.185] (II) modeset(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[     7.185] (II) modeset(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[   961.417] (II) config/udev: removing device Dell KB216 Wired Keyboard Consumer Control
+[   961.418] (II) UnloadModule: "libinput"
+[   961.418] (II) config/udev: removing device Dell KB216 Wired Keyboard Consumer Control
+[   961.418] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device removed
+[   961.443] (II) UnloadModule: "libinput"
+[   961.443] (II) config/udev: Adding input device Dell KB216 Wired Keyboard Consumer Control (/dev/input/event5)
+[   961.443] (**) Dell KB216 Wired Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   961.443] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard Consumer Control'
+[   961.443] (**) Dell KB216 Wired Keyboard Consumer Control: always reports core events
+[   961.443] (**) Option "Device" "/dev/input/event5"
+[   961.443] (**) Option "_source" "server/udev"
+[   961.443] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: is tagged by udev as: Keyboard
+[   961.443] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device is a keyboard
+[   961.443] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device removed
+[   961.474] (II) libinput: Dell KB216 Wired Keyboard Consumer Control: needs a virtual subdevice
+[   961.474] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:413C:2113.0002/input/input5/event5"
+[   961.474] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard Consumer Control" (type: MOUSE, id 12)
+[   961.474] (**) Option "AccelerationScheme" "none"
+[   961.475] (**) Dell KB216 Wired Keyboard Consumer Control: (accel) selected scheme none/0
+[   961.475] (**) Dell KB216 Wired Keyboard Consumer Control: (accel) acceleration factor: 2.000
+[   961.475] (**) Dell KB216 Wired Keyboard Consumer Control: (accel) acceleration threshold: 4
+[   961.475] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: is tagged by udev as: Keyboard
+[   961.475] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device is a keyboard
+[   961.475] (**) Dell KB216 Wired Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   961.475] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard Consumer Control'
+[   961.475] (**) Dell KB216 Wired Keyboard Consumer Control: always reports core events
+[   961.475] (**) Option "Device" "/dev/input/event5"
+[   961.475] (**) Option "_source" "_driver/libinput"
+[   961.475] (II) libinput: Dell KB216 Wired Keyboard Consumer Control: is a virtual subdevice
+[   961.475] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:413C:2113.0002/input/input5/event5"
+[   961.475] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard Consumer Control" (type: KEYBOARD, id 15)
+[   961.475] (**) Option "xkb_model" "pc105"
+[   961.475] (**) Option "xkb_layout" "us"
+[   961.475] (WW) Option "xkb_variant" requires a string value
+[   961.475] (WW) Option "xkb_options" requires a string value
+[   961.476] (II) config/udev: removing device Dell WMI hotkeys
+[   961.476] (II) event8  - Dell WMI hotkeys: device removed
+[   961.491] (II) UnloadModule: "libinput"
+[   961.491] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event8)
+[   961.491] (**) Dell WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[   961.491] (II) Using input driver 'libinput' for 'Dell WMI hotkeys'
+[   961.491] (**) Dell WMI hotkeys: always reports core events
+[   961.491] (**) Option "Device" "/dev/input/event8"
+[   961.491] (**) Option "_source" "server/udev"
+[   961.491] (II) event8  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[   961.491] (II) event8  - Dell WMI hotkeys: device is a keyboard
+[   961.491] (II) event8  - Dell WMI hotkeys: device removed
+[   961.522] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input8/event8"
+[   961.522] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 14)
+[   961.522] (**) Option "xkb_model" "pc105"
+[   961.522] (**) Option "xkb_layout" "us"
+[   961.522] (WW) Option "xkb_variant" requires a string value
+[   961.522] (WW) Option "xkb_options" requires a string value
+[   961.523] (II) event8  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[   961.523] (II) event8  - Dell WMI hotkeys: device is a keyboard
+[   961.523] (II) config/udev: removing device Sleep Button
+[   961.523] (II) event0  - Sleep Button: device removed
+[   961.543] (II) UnloadModule: "libinput"
+[   961.543] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[   961.543] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[   961.543] (II) Using input driver 'libinput' for 'Sleep Button'
+[   961.543] (**) Sleep Button: always reports core events
+[   961.543] (**) Option "Device" "/dev/input/event0"
+[   961.543] (**) Option "_source" "server/udev"
+[   961.543] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[   961.543] (II) event0  - Sleep Button: device is a keyboard
+[   961.543] (II) event0  - Sleep Button: device removed
+[   961.562] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[   961.562] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[   961.562] (**) Option "xkb_model" "pc105"
+[   961.562] (**) Option "xkb_layout" "us"
+[   961.562] (WW) Option "xkb_variant" requires a string value
+[   961.562] (WW) Option "xkb_options" requires a string value
+[   961.563] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[   961.563] (II) event0  - Sleep Button: device is a keyboard
+[   961.563] (II) config/udev: removing device Power Button
+[   961.563] (II) event1  - Power Button: device removed
+[   961.587] (II) UnloadModule: "libinput"
+[   961.587] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[   961.587] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   961.587] (II) Using input driver 'libinput' for 'Power Button'
+[   961.587] (**) Power Button: always reports core events
+[   961.587] (**) Option "Device" "/dev/input/event1"
+[   961.587] (**) Option "_source" "server/udev"
+[   961.587] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   961.587] (II) event1  - Power Button: device is a keyboard
+[   961.587] (II) event1  - Power Button: device removed
+[   961.602] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[   961.602] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[   961.602] (**) Option "xkb_model" "pc105"
+[   961.602] (**) Option "xkb_layout" "us"
+[   961.602] (WW) Option "xkb_variant" requires a string value
+[   961.602] (WW) Option "xkb_options" requires a string value
+[   961.602] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   961.602] (II) event1  - Power Button: device is a keyboard
+[   961.603] (II) config/udev: removing device Video Bus
+[   961.603] (II) event3  - Video Bus: device removed
+[   961.622] (II) UnloadModule: "libinput"
+[   961.623] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[   961.623] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   961.623] (II) Using input driver 'libinput' for 'Video Bus'
+[   961.623] (**) Video Bus: always reports core events
+[   961.623] (**) Option "Device" "/dev/input/event3"
+[   961.623] (**) Option "_source" "server/udev"
+[   961.623] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[   961.623] (II) event3  - Video Bus: device is a keyboard
+[   961.623] (II) event3  - Video Bus: device removed
+[   961.646] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input3/event3"
+[   961.646] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[   961.646] (**) Option "xkb_model" "pc105"
+[   961.646] (**) Option "xkb_layout" "us"
+[   961.646] (WW) Option "xkb_variant" requires a string value
+[   961.646] (WW) Option "xkb_options" requires a string value
+[   961.646] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[   961.646] (II) event3  - Video Bus: device is a keyboard
+[   961.647] (II) config/udev: removing device Dell KB216 Wired Keyboard System Control
+[   961.647] (II) event6  - Dell KB216 Wired Keyboard System Control: device removed
+[   961.663] (II) UnloadModule: "libinput"
+[   961.663] (II) config/udev: Adding input device Dell KB216 Wired Keyboard System Control (/dev/input/event6)
+[   961.663] (**) Dell KB216 Wired Keyboard System Control: Applying InputClass "libinput keyboard catchall"
+[   961.663] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard System Control'
+[   961.663] (**) Dell KB216 Wired Keyboard System Control: always reports core events
+[   961.663] (**) Option "Device" "/dev/input/event6"
+[   961.663] (**) Option "_source" "server/udev"
+[   961.663] (II) event6  - Dell KB216 Wired Keyboard System Control: is tagged by udev as: Keyboard
+[   961.663] (II) event6  - Dell KB216 Wired Keyboard System Control: device is a keyboard
+[   961.663] (II) event6  - Dell KB216 Wired Keyboard System Control: device removed
+[   961.678] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:413C:2113.0002/input/input6/event6"
+[   961.678] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard System Control" (type: KEYBOARD, id 13)
+[   961.678] (**) Option "xkb_model" "pc105"
+[   961.678] (**) Option "xkb_layout" "us"
+[   961.678] (WW) Option "xkb_variant" requires a string value
+[   961.678] (WW) Option "xkb_options" requires a string value
+[   961.679] (II) event6  - Dell KB216 Wired Keyboard System Control: is tagged by udev as: Keyboard
+[   961.679] (II) event6  - Dell KB216 Wired Keyboard System Control: device is a keyboard
+[   961.679] (II) config/udev: removing device Dell KB216 Wired Keyboard
+[   961.679] (II) event4  - Dell KB216 Wired Keyboard: device removed
+[   961.699] (II) UnloadModule: "libinput"
+[   961.699] (II) config/udev: Adding input device Dell KB216 Wired Keyboard (/dev/input/event4)
+[   961.699] (**) Dell KB216 Wired Keyboard: Applying InputClass "libinput keyboard catchall"
+[   961.699] (II) Using input driver 'libinput' for 'Dell KB216 Wired Keyboard'
+[   961.699] (**) Dell KB216 Wired Keyboard: always reports core events
+[   961.699] (**) Option "Device" "/dev/input/event4"
+[   961.699] (**) Option "_source" "server/udev"
+[   961.699] (II) event4  - Dell KB216 Wired Keyboard: is tagged by udev as: Keyboard
+[   961.699] (II) event4  - Dell KB216 Wired Keyboard: device is a keyboard
+[   961.699] (II) event4  - Dell KB216 Wired Keyboard: device removed
+[   961.714] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:413C:2113.0001/input/input4/event4"
+[   961.714] (II) XINPUT: Adding extended input device "Dell KB216 Wired Keyboard" (type: KEYBOARD, id 11)
+[   961.714] (**) Option "xkb_model" "pc105"
+[   961.714] (**) Option "xkb_layout" "us"
+[   961.714] (WW) Option "xkb_variant" requires a string value
+[   961.714] (WW) Option "xkb_options" requires a string value
+[   961.714] (II) event4  - Dell KB216 Wired Keyboard: is tagged by udev as: Keyboard
+[   961.715] (II) event4  - Dell KB216 Wired Keyboard: device is a keyboard
+[   961.715] (II) config/udev: removing device Power Button
+[   961.715] (II) event2  - Power Button: device removed
+[   961.731] (II) UnloadModule: "libinput"
+[   961.731] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[   961.731] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   961.731] (II) Using input driver 'libinput' for 'Power Button'
+[   961.731] (**) Power Button: always reports core events
+[   961.731] (**) Option "Device" "/dev/input/event2"
+[   961.731] (**) Option "_source" "server/udev"
+[   961.731] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[   961.731] (II) event2  - Power Button: device is a keyboard
+[   961.731] (II) event2  - Power Button: device removed
+[   961.750] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[   961.750] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   961.750] (**) Option "xkb_model" "pc105"
+[   961.750] (**) Option "xkb_layout" "us"
+[   961.750] (WW) Option "xkb_variant" requires a string value
+[   961.750] (WW) Option "xkb_options" requires a string value
+[   961.750] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[   961.750] (II) event2  - Power Button: device is a keyboard
+[   980.020] (II) event7  - PixArt Dell MS116 USB Optical Mouse: device removed
+[   980.074] (II) event5  - Dell KB216 Wired Keyboard Consumer Control: device removed
+[   980.094] (II) event8  - Dell WMI hotkeys: device removed
+[   980.110] (II) event0  - Sleep Button: device removed
+[   980.130] (II) event1  - Power Button: device removed
+[   980.146] (II) event3  - Video Bus: device removed
+[   980.162] (II) event6  - Dell KB216 Wired Keyboard System Control: device removed
+[   980.186] (II) event4  - Dell KB216 Wired Keyboard: device removed
+[   980.202] (II) event2  - Power Button: device removed
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.221] (II) UnloadModule: "libinput"
+[   980.289] (II) Server terminated successfully (0). Closing log file.

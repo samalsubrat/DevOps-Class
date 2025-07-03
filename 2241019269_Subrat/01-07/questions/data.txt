@@ -1,0 +1,11 @@
+Sam 25 HR
+Sandra 30 IT
+john 28 Sales
+Steve 45 Marketing
+Alice 35 Finance
+susan 29 Design
+Raj 40 Operations
+Sanjay 32 TechSupport
+Sonia 38 Admin
+Johny 33 Cashier
+Johnn 33 Cashier

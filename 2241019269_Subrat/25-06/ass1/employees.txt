@@ -1,0 +1,6 @@
+Name	Age	Salary	Department
+John Doe	35	12000	Physics
+Jane Smith	28	9500	Chemistry
+Alice Brown	40	11000	Physics
+Bob White	25	10500	Mathematics
+Charlie Black	32	15000	Physics

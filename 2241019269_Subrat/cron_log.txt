@@ -1,0 +1,9 @@
+/home/iteradmin/Desktop/2241019269-Subrat/25-06/ass1/scr.sh: line 3: FOLDER: command not found
+mkdir: cannot create directory ‘’: No such file or directory
+/home/iteradmin/Desktop/2241019269-Subrat/25-06/ass1/scr.sh: line 8: /a.txt: Permission denied
+/home/iteradmin/Desktop/2241019269-Subrat/25-06/ass1/scr.sh: line 3: FOLDER: command not found
+mkdir: cannot create directory ‘’: No such file or directory
+/home/iteradmin/Desktop/2241019269-Subrat/25-06/ass1/scr.sh: line 8: /a.txt: Permission denied
+/home/iteradmin/Desktop/2241019269-Subrat/25-06/ass1/scr.sh: line 3: FOLDER: command not found
+mkdir: cannot create directory ‘’: No such file or directory
+/home/iteradmin/Desktop/2241019269-Subrat/25-06/ass1/scr.sh: line 8: /a.txt: Permission denied

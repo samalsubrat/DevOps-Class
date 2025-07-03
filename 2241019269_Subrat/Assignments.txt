@@ -1,0 +1,8 @@
+IP Assignment:
+~ ifconfig | awk '/^[a-zA-Z0-9]/ {iface = $1} /inet/ && !/inet6/ {printf "%-20s %-20s %-20s %-20s\n","Interface: " iface, "IPV4: " $2, "Mask: " $4, "Broadcast: " $6 }'
+
+30 June
+0. write a bash script and use for loop to convert all the .txt to .php files in myfolder2
+1. bash script if nginx server is running or not using awk/grep/sed. If the server is not running, then run the nginx server
+2. write a bash script to copy all the .log files in the /var/log folder into a new folder inside myfolder2
+3. bash script to take a backup of files using tar with date
